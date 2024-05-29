@@ -1,22 +1,19 @@
+import Header from './components/Header.jsx';
+import StarCraftFactions from './components/StarCraftFactions.jsx';
 import { FACTIONS_DATA } from './data';
-
-function StarCraftFactions(props) {
-  return (
-    <li>
-      <img src={props.image} alt={props.title} />
-      <h3>{props.title}</h3>
-      <p>{props.description}</p>
-    </li>
-  );
-}
 
 function App() {
   return (
     <div>
+      
+      <Header />
+
       <main>
+
         <h2>Time to get Started!</h2>
           
           <section id="core-concepts">
+
             <h2>Facciones de StarCraft</h2>
             
             <ul>
@@ -44,8 +41,11 @@ function App() {
               description={FACTIONS_DATA[3].description}
               />
             </ul>
+
           </section>
+
       </main>
+
     </div>
   );
 }
