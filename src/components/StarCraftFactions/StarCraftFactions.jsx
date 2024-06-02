@@ -1,3 +1,5 @@
+import './StarCraftFactions.css';
+
 export default function StarCraftFactions({image, title, description}) {
     return (
       <li>

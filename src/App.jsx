@@ -1,5 +1,5 @@
-import Header from './components/Header.jsx';
-import StarCraftFactions from './components/StarCraftFactions.jsx';
+import Header from './components/Header/Header.jsx';
+import StarCraftFactions from './components/StarCraftFactions/StarCraftFactions.jsx';
 import { FACTIONS_DATA } from './data.js';
 
 function App() {
